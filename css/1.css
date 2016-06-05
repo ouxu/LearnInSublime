@@ -1,0 +1,14 @@
+hr {color: sienna;}
+p {
+	color: pink;
+	}
+body {
+	background-image: url(3.jpg);
+	background-repeat: no-repeat;
+	background-position: 66% 33%;
+	}
+.center {text-align: center;}
+.fancy td {
+			text-align: center;
+			color: #f60;
+		}
