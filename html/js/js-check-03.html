@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>out_xu</title>
+</head>
+
+<body>
+    <h1>JaveScript Check</h1>
+    <p>请输入数字，如果输入的不是数字，浏览器会弹出提示框</p>
+    <input type="text" id="demo">
+
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("demo").value;
+            if (x == "" || isNaN(x)) {
+                alert("不是数字");
+            }
+        }
+    </script>
+    <button type="button" onclick="myFunction()">点我</button>
+</body>
+
+</html>

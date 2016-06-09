@@ -1,3 +1,4 @@
-function message() {
-	alert("刘明傻逼")；
+function myFunction() {
+		x = document.getElementById("demo");
+		x.innerHTML = "hello  javascript";
 }
