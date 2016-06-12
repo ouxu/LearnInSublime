@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>out_xu</title>
+    <script>
+        function myFunction() {
+            try {
+                var x = document.getElementById("demo").value;
+                if (x == "") throw "值为空";
+                if (isNaN(x)) th row "不是数字";
+                if (x > 10) throw "太大";
+                if (x < 5) throw "太小";
+            } catch (err) {
+                var y = document.getElementById("mess");
+                y.innerHTML = "错误：" + err + "。";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Try and Catch</h1>
+    <p>请输入一个 5到10 之间的数字：</p>
+    <input type="text" id="demo">
+    <button type="button" onclick="myFunction()">测试输入</button>
+    <p id="mess"></p>
+</body>
+
+</html>

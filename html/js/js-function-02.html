@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>out_xu</title>
+</head>
+
+<body>
+    <p>全局变量在任何脚本和函数内均可访问</p>
+    <p id="demo"></p>
+
+    <script>
+        var id = "123456"
+        var Name = id.length;
+        myFunction();
+
+        function myFunction() {
+            document.getElementById("demo").innerHTML =
+                "I can display " + Name;
+
+        }
+    </script>
+</body>
+
+</html>
