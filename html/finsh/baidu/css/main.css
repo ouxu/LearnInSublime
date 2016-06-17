@@ -1,77 +1,77 @@
-html,body{
-	height: 100%;
-	margin: 0;
-	padding: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 #container {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -80px;/*margin-bottom的负值等于footer高度*/
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -80px;
+  /*margin-bottom的负值等于footer高度*/
 }
 
 #top {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 #footer {
-	height: 80px;
-	clear:both;
-	text-align: center;
-	font-size: small;
+  height: 80px;
+  clear: both;
+  text-align: center;
+  font-size: small;
 }
 
-.button a{
-	float: right;
-	font-size: small;
-	font-family: STHeiti; 
-	margin: 4px;
-	color: black;
-	padding: 5px;
+.button a {
+  float: right;
+  font-size: small;
+  font-family: STHeiti;
+  margin: 4px;
+  color: black;
+  padding: 5px;
 }
 
-.button_more a{
-	float: right;
-	font-size: small;
-	margin: 5px 5px 5px 15px;
-	padding: 4px;
-	color: white;
-	text-decoration: none;
-	background-color: rgb(51,136,255);
+.button_more a {
+  float: right;
+  font-size: small;
+  margin: 5px 5px 5px 15px;
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(51, 136, 255);
 }
 
 #logo {
-	padding-top: 50px;
-	text-align: center;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .textform {
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 840px;
-	text-align:center;
-	
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 840px;
+  text-align: center;
 }
 
-.textform input{
-
-	width: 60%;
-	height: 30px;
+.textform input {
+  width: 60%;
+  height: 30px;
 }
 
 #search {
-	font-family: Microsoft YaHei;
-	width: 30%;
-	text-align: center;
-	color: white;
-	padding: 7px 20px 9px 20px;
-	margin: -5px;
-	text-decoration: none;
-	background-color: rgb(51,136,255);
+  font-family: Microsoft YaHei;
+  width: 30%;
+  text-align: center;
+  color: white;
+  padding: 7px 20px 9px 20px;
+  margin: -5px;
+  text-decoration: none;
+  background-color: rgb(51, 136, 255);
 }
 
-#footer a{
-	color: black;
+#footer a {
+  color: black;
 }
-
