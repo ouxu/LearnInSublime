@@ -1,0 +1,107 @@
+.clr {
+  clear: both;
+}
+
+#container {
+  width: 1002px;
+}
+
+#header {
+  height: 128px;
+  background: gray url(../images/top_bg.jpg);
+}
+
+#nav li {
+  width: 90px;
+  margin-left: 1px;
+  margin-top: -2px;
+  float: left;
+}
+
+#nav a {
+  display: block;
+  font-size: 16px;
+  font-family: '微软雅黑';
+  color: #363636;
+  width: 90px;
+  height: 37px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#nav a:hover {
+  color: white;
+  background: url(../images/nav_on.gif);
+}
+
+#mian {}
+
+#lside {
+  width: 694px;
+  border: 1px solid gray;
+  float: left;
+}
+
+.subtitle {
+  height: 37px;
+  background: url(../images/index_main_top_bg.gif);
+}
+
+.subtitle img {
+  float: left;
+}
+
+.subtitle h1 {
+  float: left;
+  margin-left: 10px;
+  font-size: 16PX;
+  font-family: '微软雅黑', SimHei, sans-serif;
+}
+
+.subtitle a {
+  float: right;
+  font-size: 12px;
+  color: gray;
+}
+
+.four {
+  width: 324px;
+  height: 198px;
+  /*background: pink;*/
+  margin: 10px;
+  float: left;
+  border: 1px solid gray;
+}
+
+.four img {
+  margin-left: 10px;
+  padding: 6px;
+  float: left;
+  background: white;
+}
+
+.four h2 {
+  margin: 6px 0 6px 10px;
+  font-size: 16px;
+  font-family: '微软雅黑', SimHei, sans-serif;
+}
+
+.four ul {
+  float: left;
+  margin-left: 10px;
+}
+
+.four li {
+  background: url(../images/service_intro_bg.gif) no-repeat;
+  padding-left: 10px;
+}
+
+#rside {
+  width: 294px;
+  float: right;
+}
+
+#footer {
+  height: 120px;
+  background: pink;
+}
