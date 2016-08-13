@@ -38,7 +38,7 @@
 
 #lside {
   width: 694px;
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
   float: left;
 }
 
@@ -67,10 +67,10 @@
 .four {
   width: 324px;
   height: 198px;
-  /*background: pink;*/
+  background: rgb(239, 239, 239);
   margin: 10px;
   float: left;
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
 }
 
 .four img {
@@ -78,6 +78,14 @@
   padding: 6px;
   float: left;
   background: white;
+}
+
+.four a {
+  color: gray;
+}
+
+.four a:visited {
+  color: gray;
 }
 
 .four h2 {
@@ -94,6 +102,7 @@
 .four li {
   background: url(../images/service_intro_bg.gif) no-repeat;
   padding-left: 10px;
+  height: 20px;
 }
 
 #rside {

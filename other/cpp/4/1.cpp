@@ -25,12 +25,9 @@ int main() {
 
   return 0;
 }
-
 void box::get_value() {
   cout << "Please input length,width,height: ";
   cin >> length >> width >> height;
 }
-
 void box::volume() { vol = length * width * height; }
-
 void box::dis_value() { cout << vol << endl; }
