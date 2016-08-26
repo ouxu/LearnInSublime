@@ -1,0 +1,13 @@
+
+//重置变量
+$imgslideView: 1000px 340px;
+
+// 需要一些基础样式及功能导入base
+@import "../tobe/base";
+@import "../tobe/ext/helper";
+
+@import "../tobe/components/search";
+@import "../tobe/components/layout";
+@import "../tobe/components/nav";
+@import "../tobe/components/imgslide";
+@import "../tobe/components/col";
