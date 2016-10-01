@@ -1,33 +1,16 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <string.h>
 
-class box {
-public:
-  void get_value();
-  void volume();
-  void dis_value();
-
-public:
-  float length;
-  float width;
-  float height;
-  float vol;
-};
-
-int main() {
-  box b[3];
-  for (int i = 0; i < 3; ++i) {
-    b[i].get_value();
-    b[i].volume();
-    cout << "Box" << i + 1 << "'s volume is:  ";
-    b[i].dis_value();
-  }
-
-  return 0;
+void FuncT(int iNum, char *aslP[]){
+    for (int i=0; i< iNum; i++) {
+        printf("%s\n", aslP[i]);
+    }
 }
-void box::get_value() {
-  cout << "Please input length,width,height: ";
-  cin >> length >> width >> height;
+
+int main(void) {
+    char aslP[20][16];
+    strcpy(aslP[0],"172.2.2.1");
+    strcpy(aslP[1],"172.23.3.2");
+    FuncT(2, aslP);
+    return(0);
 }
-void box::volume() { vol = length * width * height; }
-void box::dis_value() { cout << vol << endl; }
