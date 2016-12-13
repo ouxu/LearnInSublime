@@ -1,5 +1,5 @@
-html,
-body {
+body,
+html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -11,6 +11,11 @@ body {
   height: 100%;
   margin: 0 auto -80px;
   /*margin-bottom的负值等于footer高度*/
+}
+
+.main {
+  width: auto;
+  text-align: center;
 }
 
 #top {
@@ -66,7 +71,7 @@ body {
   width: 30%;
   text-align: center;
   color: white;
-  padding: 7px 20px 9px 20px;
+  padding: 7px 20px 9px;
   margin: -5px;
   text-decoration: none;
   background-color: rgb(51, 136, 255);
